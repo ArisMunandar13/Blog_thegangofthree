@@ -145,11 +145,37 @@ nav {
   height: 50px;
 }
 
+nav .nav-list {
+  margin-right: 8px;
+  float: right;
+}
+
+nav .nav-list ul li {
+  display: inline-block;
+  padding: 15px;
+}
+
+nav .nav-list a {
+  text-decoration: none;
+  color: white;
+  padding: 3px;
+}
+
+nav a:hover {
+  background-color: skyblue;
+  color: #fff;
+}
+
+nav a:active {
+  font-style: italic;
+}
+
 nav .title {
   padding: 15px;
   font-size: 20px;
   font-family: cursive;
   color: whitesmoke;
+  float: left;
 }
 
 b {
